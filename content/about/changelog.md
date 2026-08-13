@@ -28,8 +28,7 @@ Released on XX August 2026.
 - Dropdowns now accept selection by (Mouse) Down -> Drag -> Release.
 - Formspecs no longer close when focusing the window (_SmallJoker_)
 - Fix: Formspec `model[]` elements are again animated (_Lars Mueller_,_cx384_)
-- Implement basic gamepad support (_y5nw_)
-- Actions can now be bound to multiple inputs (e.g. keyboard and joystick) (_y5nw_)
+- Implement basic gamepad support for in-game actions (not formspecs) (_y5nw_)
 - Support multi-track animations (glTF models) (_Lars Müller_)
    - E.g. models may now have several, independently controllable animations.
 - Fixed an case where the held item stack (e.g. when dragging) size was no longer displayed correctly (_OgelGames_)
@@ -42,11 +41,13 @@ Released on XX August 2026.
 - Main menu: Mods are now sorted by their technical name (before: directory name) (_SmallJoker_)
 - Mostly fix the appearance of waving liquids (shader) below solid nodes (_ZenonSeth_)
 - Fix an issue where Luanti would not start in certain situations (_sfan5_)
+- Android: read-only access to Luanti's data directory (_Stvk imension_)
 
 ### World / Server / Environment
 - Add `dummy` auth backend support (_nerzhul_)
 - Improved collision handling (_SmallJoker_)
 - Mapblocks in view now load more efficiently (_lhofhansl_)
+- The `--debugger` command line argument can now be used on `luantiserver` (_SmallJoker_)
 
 ### Script API / Modding
 - Add `hideable` HUD element field (_cx384_)
