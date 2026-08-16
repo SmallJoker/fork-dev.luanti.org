@@ -62,7 +62,7 @@ Released on XX August 2026.
 - Dark theme for https://api.luanti.org/ (_Wabio_)
 - `visual_scale` no longer has any effect on unsupported `drawtype`s (_DragonWrangler1_)
 - Fixed a case where where `core.get_natural_light` could throw an error (_Jürgen Rühle_)
-- Formspec: Add hypertext support to tooltips (_Wuzzy_)
+- Formspec: Add hypertext support to tooltips ("hypertip") (_kilbith_), improved by _Wuzzy_
 - Formspec: Fix text color and font not applying to field labels (_OgelGames_)
 - Formspec: Add alignment styles to `label[]`, `textarea[]` and `field[]` (_CrazyladMT_)
 - Performance improvements related to texture modifiers and node visuals (_sfan5_)
