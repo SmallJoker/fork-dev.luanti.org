@@ -17,12 +17,15 @@ If you want a list of _every_ change made between releases see the [commit log](
 
 **[Release](https://github.com/luanti-org/luanti/releases/tag/5.17.0)**
 
-Released on XX August 2026.
+Released on 20 August 2026.
 
 *New entries added to the bottom.*
 
-### Deprecations and compatibility notes
-- None
+⚠️ **This release fixes security vulnerabilities affecting both the client and server. We advise everyone to upgrade immediately**. ⚠️
+
+- The vulnerabilities have the following attack vectors:
+   - (brief description, maybe link)
+   - (brief description, maybe link)
 
 ### Client / Audiovisuals
 - Dropdowns now accept selection by (Mouse) Down -> Drag -> Release.
@@ -76,6 +79,7 @@ Released on XX August 2026.
 - Code maintenance, improvements (_SmallJoker_, _sfan5_, _Lars Mueller_, _cx384_)
 - CPCSM/SSCSM fixes (_nerzhul_)
 - New policy for generative AI contributions (_Vincent Robinson_)
+- Multiple security fixes (_sfan5_, _red-001_, _Lars Mueller_)
 
 
 ## 5.16.0 → 5.16.1
