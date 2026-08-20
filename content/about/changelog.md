@@ -68,7 +68,7 @@ Released on 20 August 2026.
 
 ### Misc / Maintenance
 - Various stability or minor security fixes (_JosiahWI_, _sfan5_, _Lars Mueller_)
-- Build system maintenance and improvements (_a-bad-dev_, _AFCMS_, _sfan5_)
+- Build system maintenance and improvements (_user333\__, _AFCMS_, _sfan5_)
 - Debugging-related improvements (_Desour_ _sfan5_)
 - Funding information is now available under FUNDING.yml (_rubenwardy_)
 - Code maintenance, improvements (_SmallJoker_, _sfan5_, _Lars Mueller_, _cx384_)
