@@ -19,13 +19,8 @@ If you want a list of _every_ change made between releases see the [commit log](
 
 Released on 20 August 2026.
 
-*New entries added to the bottom.*
+⚠️ **This release fixes security vulnerabilities affecting both the client and server. We advise everyone to upgrade immediately.** ⚠️
 
-⚠️ **This release fixes security vulnerabilities affecting both the client and server. We advise everyone to upgrade immediately**. ⚠️
-
-- The vulnerabilities have the following attack vectors:
-   - (brief description, maybe link)
-   - (brief description, maybe link)
 
 ### Client / Audiovisuals
 - Dropdowns now accept selection by (Mouse) Down -> Drag -> Release.
