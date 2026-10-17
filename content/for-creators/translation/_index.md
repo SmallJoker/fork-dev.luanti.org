@@ -103,7 +103,8 @@ Add weblate as remote: `git remote add weblate https://hosted.weblate.org/git/mi
 8.  If _required/desired_, do these: (use `--author="updatepo.sh <script@mt>"` when committing changes made by the scripts)
     1.  Update `minetest.conf.example` and the dummy `*.cpp` translation file and commit. Do this by uncommenting the lines at the end of `builtin/common/settings/init.lua`.
     2.  Run `util/updatepo.sh`, and commit. Note that it creates lots of unnecessary changes, and enlarges repository size disproportionately, therefore run it even less often.
-9.  Push to the [GitHub repo](https://github.com/luanti-org/luanti) with `git push origin HEAD:master`. If you want to check if CI passes first you can also create a temporary branch with `git push origin HEAD:refs/heads/ci`. 
+    3.  Update the builtin `.tr` translation files. See below.
+9.  Push to the [GitHub repo](https://github.com/luanti-org/luanti) with `git push origin HEAD:master`. If you want to check if CI passes first you can also create a temporary branch with `git push origin HEAD:refs/heads/ci`.
 10. Reset the Weblate remote ("Reset" button), rebase it to match now current master, and unlock it. If pushed commits do not yet show up in Weblate you may have to press the "Pull" button.
 
 Note: For the rebasing script to work you need to set git-rebase up to show the author, like so: `git config --add rebase.instructionFormat "(%an <%ae>) %s"`
@@ -117,7 +118,7 @@ The server-side translations of builtin are located in `builtin/locale` with `te
 
 The template file as well as all locale files need to be updated before release to allow translators to translate.
 
-To update the builtin locale files, run `../util/mod_translation_updater.py` from the builtin directory (requires Python 3).
+To update the builtin locale files, run [`mod_translation_updater.py -t`](https://github.com/luanti-org/modtools/blob/main/mod_translation_updater.py) from the builtin directory (requires Python 3).
 
 To start a new translation, copy `template.txt` to create `__builtin.<LANGUAGE_CODE>.tr`.
 
